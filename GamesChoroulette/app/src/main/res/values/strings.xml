@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">BGS</string>
+    <string name="welcome_message">Hello World</string>
+    <string name="app_name1">My App</string>
+    <string name="email_hint">Please Insert Email...</string>
+    <string name="password_hint">Please Insert Password</string>
+    <string name="guessing_number">Guessing Number  123</string>
+    <string name="seven_boom">SEVEN BOOM</string>
+    <string name="press_to_boom">Catch the BOOM</string>
+    <string name="sudoku">sudoku</string>
+    <string name="register">register</string>
+    <string name="user_name">User Name</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_account">Already have Account?</string>
+    <string name="btnregister">register</string>
+    <string name="password">Password</string>
+
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+</resources>

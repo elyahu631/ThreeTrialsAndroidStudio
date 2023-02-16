@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "943496455957",
+    "project_id": "games-choroulette-471bd",
+    "storage_bucket": "games-choroulette-471bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943496455957:android:64cb2e7aa848fca0bfeb1c",
+        "android_client_info": {
+          "package_name": "com.example.gameschoroulette"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943496455957-anpb69uf1kbrrmar5uesqb5rjncvq3f3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAieECLa0JT85rXRsg2j8gF_JQydUoyLqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943496455957-anpb69uf1kbrrmar5uesqb5rjncvq3f3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

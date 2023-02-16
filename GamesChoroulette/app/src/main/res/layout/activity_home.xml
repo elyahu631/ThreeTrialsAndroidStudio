@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@drawable/bg_home">
+
+
+    <TextView
+        android:id="@+id/userLoginEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/russo_one"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#DA9A9A"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/guessNumber"
+        android:layout_width="185dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="168dp"
+        android:background="@drawable/button_sheape"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/guessing_number"
+        android:textColor="#DFDBDB"
+        android:textSize="16sp"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/userLoginEmail"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/userLoginEmail"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sevenBoom"
+        android:drawableRight="@drawable/fire_icon"
+        android:layout_width="185dp"
+        android:layout_height="80dp"
+        android:padding="10dp"
+        android:layout_marginTop="116dp"
+        android:background="@drawable/button_sheape"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/seven_boom"
+        android:textColor="#DFDBDB"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/guessNumber"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guessNumber"
+        app:layout_constraintTop_toBottomOf="@+id/guessNumber" />
+
+    <Button
+        android:id="@+id/sudoku"
+        android:layout_width="185dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button_sheape"
+        android:fontFamily="@font/aclonica"
+        android:text="snake"
+        android:padding="10dp"
+        android:textColor="#DFDBDB"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/sevenBoom"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/sevenBoom"
+        app:layout_constraintTop_toBottomOf="@+id/sevenBoom"
+        app:layout_constraintVertical_bias="0.161" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
